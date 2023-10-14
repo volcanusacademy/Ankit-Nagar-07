@@ -1,0 +1,67 @@
+<!DOCTYPE>
+<html>
+<head>
+    
+    <title>Food Ordering Assessment</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h1>Food Ordering Assessment</h1>
+
+    <form id="food-order-assessment">
+        <div class="question">
+            <p>1. What type of cuisine are you in the mood for?</p>
+            <label>
+                <input type="radio" name="cuisine" value="Italian"> Italian
+            </label>
+            <label>
+                <input type="radio" name="cuisine" value="Mexican"> Mexican
+            </label>
+            <label>
+                <input type="radio" name="cuisine" value="Chinese"> Chinese
+            </label>
+        </div>
+
+        <div class="question">
+            <p>2. How spicy do you like your food?</p>
+            <label>
+                <input type="radio" name="spiciness" value="Mild"> Mild
+            </label>
+            <label>
+                <input type="radio" name="spiciness" value="Medium"> Medium
+            </label>
+            <label>
+                <input type="radio" name="spiciness" value="Spicy"> Spicy
+            </label>
+        </div>
+
+        <div class="question">
+            <p>3. Choose a food item you'd like to order.</p>
+            <label>
+                <input type="radio" name="food-item" value="Burger"> Burger
+            </label>
+            <label>
+                <input type="radio" name="food-item" value="Pizza"> Pizza
+            </label>
+            <label>
+                <input type="radio" name="food-item" value="Pasta"> Pasta
+            </label>
+            <label>
+                <input type="radio" name="food-item" value="Sushi"> Sushi
+            </label>
+        </div>
+
+        <div class="question">
+            <p>4. How many servings do you want to order?</p>
+            <input type="number" name="servings" min="1">
+        </div>
+
+        <div class="question">
+            <p>5. Any specific dietary preferences or allergies?</p>
+            <textarea name="dietary-preferences" rows="4" cols="50"></textarea>
+        </div>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
